@@ -1,4 +1,4 @@
-[About]({% link _pages/about.md %})
+[About]({% link pages/about.md %})
  | 
 [Blog]({$ link blog.html %})
 
