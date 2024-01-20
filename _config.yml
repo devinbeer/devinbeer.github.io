@@ -5,4 +5,6 @@ plugins:
 title: Portfolio
 description: This website is meant to be a personal portfolio, showcasing projects that I have worked on.
 
-paginate: 5
+collections:
+  posts:
+    output: true
