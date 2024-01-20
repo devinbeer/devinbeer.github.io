@@ -125,3 +125,18 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+<div class="home">
+   <section>
+      <ul class="post-list">
+         {% for post in site.posts %}
+         <li>
+            [<time datetime="{{ post.date | date_to_xmlschema }}"></time>{{ post.date | date: "%Y-%m-%d" }}]
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+<p class="announceable">{{ post.title }} {{ post.url | prepend: site.baseurl | prepend: site.url }}{% if post.tags.size > 0 %}{% for post_tag in post.tags %} #{{ post_tag | slugify | replace: "-", "_" }}{% endfor %}{% endif %}</p>
+
+         </li>
+         {% endfor %}
+      </ul>
+   </section>
+</div>
