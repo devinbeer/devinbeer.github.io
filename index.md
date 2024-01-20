@@ -1,6 +1,6 @@
-[About]({% link pages/about.md %})
+[About]({% link _pages/about.md %})
  | 
-[Blog]({$ link pages/blog.html %})
+[Blog]({$ link blog.html %})
 
 ---
 layout: default
