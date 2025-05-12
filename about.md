@@ -3,7 +3,17 @@ layout: default
 title: About
 ---
 
-```{include} _includes/navigation.md
-```
+[Home](../index.md)&ensp;
+|&ensp;
+[About](../about.md)&ensp;
+|&ensp;
+[Work Experience](../work-experience.md)&ensp;
+|&ensp;
+[Projects](../projects.md)&ensp;
+| &ensp;
+[Blog](../blog.html)
 
+<br>
+
+# About
 This is the About page

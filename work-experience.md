@@ -3,8 +3,17 @@ layout: default
 title: Work Experience
 ---
 
-```{include} _includes/navigation.md
-```
+[Home](../index.md)&ensp;
+|&ensp;
+[About](../about.md)&ensp;
+|&ensp;
+[Work Experience](../work-experience.md)&ensp;
+|&ensp;
+[Projects](../projects.md)&ensp;
+| &ensp;
+[Blog](../blog.html)
+
+<br>
 
 # Work Experience
 
