@@ -3,13 +3,13 @@ layout: default
 title: Work Experience
 ---
 
-[Home](./index.md)&ensp;
+[Home](./index)&ensp;
 |&ensp;
-[About](./about.md)&ensp;
+[About](./about)&ensp;
 |&ensp;
-[Work Experience](./work-experience.md)&ensp;
+[Work Experience](./work-experience)&ensp;
 |&ensp;
-[Projects](./projects.md)&ensp;
+[Projects](./projects)&ensp;
 | &ensp;
 [Blog](./blog.html)
 
