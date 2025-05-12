@@ -1,5 +1,13 @@
+---
+layout: default
+title: 
+---
+
+```{include} _includes/navigation.md
+```
+
 # Introduction
-I am a Desktop Support Technician with a Bachelor's degree in Information Technology and Security.
+Welcome to my portfolio!
 
 &nbsp;
 

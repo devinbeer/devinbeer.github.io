@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Projects
 ---
 
 ```{include} _includes/navigation.md
 ```
 
-This is the About page
+# Projects
+
+This is the projects page.

@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 title: Portfolio
-description: This website is meant to be a personal portfolio, showcasing projects that I have worked on.
+description: This website is my personal portfolio, showcasing projects that I have worked on.
 
 collections:
   posts:
