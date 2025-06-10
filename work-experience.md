@@ -15,6 +15,8 @@ title: Work Experience
 
 # Work Experience
 
+---
+
 &nbsp;
 
 ## Van Andel Research Institute
@@ -23,6 +25,8 @@ title: Work Experience
 **Desktop Support Technician**<br>
 *July 2024 - Present<br>
 Grand Rapids, MI*
+
+&nbsp;
 
 ---
 
@@ -34,23 +38,27 @@ Grand Rapids, MI*
 	*April 2024 - July 2024<br>
 	Muskegon, MI*
 
+&nbsp;
+
 ---
 
 &nbsp;
 
 ## Meijer
 
-**Asset Protection Specialist**
+**Asset Protection Specialist**<br>
 *September 2022 - April 2024<br>
 Grand Rapids, MI*
 
-**Asset Protection Team Leader**
+**Asset Protection Team Leader**<br>
 *September 2021 - September 2022<br>
 Grand Rapids, MI*
 
-**Asset Protection Specialist**
+**Asset Protection Specialist**<br>
 *December 2019 - September 2021<br>
 Grand Rapids, MI*
+
+&nbsp;
 
 ---
 
@@ -58,13 +66,15 @@ Grand Rapids, MI*
 
 ## The Lakes Mall
 
-**Administrative Assistant**
+**Administrative Assistant**<br>
 *October 2017 - December 2019<br>
 Muskegon, MI*
 
-**Security Guard**
+**Security Guard**<br>
 *September 2016 - October 2017<br>
 Muskegon, MI*
+
+&nbsp;
 
 ---
 
@@ -72,9 +82,11 @@ Muskegon, MI*
 
 ## DK Security
 
-**Security Officer**
+**Security Officer**<br>
 *May 2016 - September 2016<br>
 Holland, MI*
+
+&nbsp;
 
 ---
 
@@ -82,6 +94,6 @@ Holland, MI*
 
 ## Taco Bell / KFC
 
-**Cashier**
+**Cashier**<br>
 *July 2014 - May 2016<br>
 Muskegon, MI*
