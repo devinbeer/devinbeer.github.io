@@ -7,7 +7,7 @@ title: Work Experience
 |&ensp;
 [About](./about)&ensp;
 |&ensp;
-[Work Experience](./work-experience)&ensp;
+[**Work Experience**](./work-experience)&ensp;
 |&ensp;
 [Projects](./projects)&ensp;
 | &ensp;
@@ -24,6 +24,8 @@ title: Work Experience
 *July 2024 - Present<br>
 Grand Rapids, MI*
 
+---
+
 &nbsp;
 
 ## Shoreline Register Systems
@@ -32,46 +34,54 @@ Grand Rapids, MI*
 	*April 2024 - July 2024<br>
 	Muskegon, MI*
 
+---
+
 &nbsp;
 
 ## Meijer
 
-### Asset Protection Specialist
+**Asset Protection Specialist**
 *September 2022 - April 2024<br>
 Grand Rapids, MI*
 
-### Asset Protection Team Leader
+**Asset Protection Team Leader**
 *September 2021 - September 2022<br>
 Grand Rapids, MI*
 
-### Asset Protection Specialist
+**Asset Protection Specialist**
 *December 2019 - September 2021<br>
 Grand Rapids, MI*
+
+---
 
 &nbsp;
 
 ## The Lakes Mall
 
-### Administrative Assistant
+**Administrative Assistant**
 *October 2017 - December 2019<br>
 Muskegon, MI*
 
-### Security Guard
+**Security Guard**
 *September 2016 - October 2017<br>
 Muskegon, MI*
+
+---
 
 &nbsp;
 
 ## DK Security
 
-### Security Officer
+**Security Officer**
 *May 2016 - September 2016<br>
 Holland, MI*
+
+---
 
 &nbsp;
 
 ## Taco Bell / KFC
 
-### Cashier
+**Cashier**
 *July 2014 - May 2016<br>
 Muskegon, MI*

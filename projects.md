@@ -9,7 +9,7 @@ title: Projects
 |&ensp;
 [Work Experience](./work-experience)&ensp;
 |&ensp;
-[Projects](./projects)&ensp;
+[**Projects**](./projects)&ensp;
 | &ensp;
 [Blog](./blog.html)
 

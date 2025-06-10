@@ -3,7 +3,7 @@ layout: default
 title: 
 ---
 
-[Home](./index)&ensp;
+[**Home**](./index)&ensp;
 |&ensp;
 [About](./about)&ensp;
 |&ensp;
