@@ -9,7 +9,6 @@
 <body>
     <!-- Navbar -->
     <div id="navbar"></div>
-  
     <script>
       fetch("nav.html")
         .then(response => response.text())
@@ -17,16 +16,13 @@
           const navContainer = document.getElementById("navbar");
           navContainer.innerHTML = data;
 
-          // 1. Collect the sections you care about
           const sectionIds = ["summary", "skills", "exp", "education", "certifications", "projects", "links"];
           const sections = sectionIds
             .map(id => document.getElementById(id))
-            .filter(Boolean); // ignore ones that don't exist yet
+            .filter(Boolean);
 
-          // 2. Collect the nav links inside the loaded nav
           const navLinks = navContainer.querySelectorAll("a");
 
-          // Map section id -> nav link element
           const linkBySectionId = {};
           navLinks.forEach(link => {
             const href = link.getAttribute("href");
@@ -36,9 +32,7 @@
             }
           });
 
-          // 3. Use IntersectionObserver to detect which section is in view
           const observer = new IntersectionObserver((entries) => {
-            // Find the section with the largest visible area
             let visible = entries.filter(entry => entry.isIntersecting);
             if (!visible.length) return;
 
@@ -46,18 +40,16 @@
             const topSection = visible[0].target;
             const activeId = topSection.id;
 
-            // 4. Toggle .active on the corresponding nav link
             navLinks.forEach(link => link.classList.remove("active"));
             const activeLink = linkBySectionId[activeId];
             if (activeLink) {
               activeLink.classList.add("active");
             }
           }, {
-            root: null,          // viewport
-            threshold: 0.4       // 40% of section must be visible to count
+            root: null,
+            threshold: 0.4
           });
 
-          // Start observing each section
           sections.forEach(section => observer.observe(section));
         })
         .catch(error => console.error("Error loading navbar:", error));
@@ -87,7 +79,6 @@
         </section>
       </section>
       <hr class="rule" />
-
 
       <!-- Skills -->
       <section id="skills" class="section-block">
