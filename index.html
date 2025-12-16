@@ -16,7 +16,7 @@
           const navContainer = document.getElementById("navbar");
           navContainer.innerHTML = data;
 
-          const sectionIds = ["summary", "skills", "exp", "education", "certifications", "projects", "links"];
+          const sectionIds = ["summary", "skills", "exp", "education", "projects", "links"];
           const sections = sectionIds
             .map(id => document.getElementById(id))
             .filter(Boolean);
@@ -70,7 +70,7 @@
         <!-- Summary -->
         <section class="section">
           <div class="label">Summary</div>
-          <div class="summary">
+          <div class="section-plain summary">
             <p>
               I'm an aspiring Systems Administrator with a Bachelor's Degree in Information Technology and Security. Skilled in small
               business network installation and configuration.
@@ -78,73 +78,131 @@
           </div>
         </section>
       </section>
-      <hr class="rule" />
 
       <!-- Skills -->
       <section id="skills" class="section-block">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills-card-grid">
-
-          <div class="skill-card">
-            <h3>Operating Systems</h3>
-            <ul>
-              <li>Windows 11</li>
-              <li>Windows Server 2025</li>
-              <li>MacOS 26</li>
-              <li>Ubuntu 24.04</li>
-              <li>Cisco IOS</li>
-            </ul>
-          </div>
-
-          <div class="skill-card">
-            <h3>Network Hardware</h3>
-            <ul>
-              <li>Cisco</li>
-              <li>Ubiquiti</li>
-            </ul>
-          </div>
-
-          <div class="skill-card">
-            <h3>Scripting Languages</h3>
-            <ul>
-              <li>Python</li>
-              <li>Bash</li>
-              <li>PowerShell</li>
-            </ul>
-          </div>
-
-          <div class="skill-card">
-            <h3>Management Tools</h3>
-            <ul>
-              <li>Active Directory</li>
-              <li>Intune</li>
-              <li>Jamf</li>
-              <li>Maximo</li>
-              <li>N-able</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Education -->
-      <section id="education" class="section-block">
         <section class="section">
-          <div class="label">Education</div>
-          <div class="edu">
-            <div class="degree">Bachelor of Science (B.S.), Information Technology and Security</div>
-            <div>Baker College</div>
-          </div>
+          <div class="label">Skills</div>
+            <div class="skills-card-grid">
+              <div class="skill-card">
+                <h3>Operating Systems</h3>
+                <ul>
+                  <li>Windows 11</li>
+                  <li>Windows Server 2025</li>
+                  <li>MacOS 26</li>
+                  <li>Ubuntu 24.04</li>
+                  <li>Cisco IOS</li>
+                </ul>
+              </div>
+
+              <div class="skill-card">
+                <h3>Network Hardware</h3>
+                <ul>
+                  <li>Cisco</li>
+                  <li>Ubiquiti</li>
+                </ul>
+              </div>
+
+              <div class="skill-card">
+                <h3>Scripting Languages</h3>
+                <ul>
+                  <li>Python</li>
+                  <li>Bash</li>
+                  <li>PowerShell</li>
+                </ul>
+              </div>
+
+              <div class="skill-card">
+                <h3>Management Tools</h3>
+                <ul>
+                  <li>Active Directory</li>
+                  <li>Intune</li>
+                  <li>Jamf</li>
+                  <li>Maximo</li>
+                  <li>N-able</li>
+                </ul>
+              </div>
+            </div>
         </section>
       </section>
-      <hr class="rule" />
 
       <!-- Projects -->
       <section id="projects" class="section-block">
         <section class="section">
           <div class="label">Projects</div>
-          <div class="projects">
-            <div><strong>Work in Progress:</strong> This is where my projects will go.</div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <header class="project-card-header">
+                <h3 class="project-title">Home Lab Docker Environment & Self-Hosted Services</h3>
+                <span class="project-year">December 2025</span>
+              </header>
+
+              <p class="project-role">Systems Administration · Networking · Security</p>
+
+              <p class="project-summary">
+                Built a self-hosted platform on Ubuntu Server using Docker to run and manage multiple
+                services.
+              </p>
+
+              <ul class="project-bullets">
+                <li>Provisioned an <strong>Ubuntu Server</strong> host and installed <strong>Docker</strong> as the container platform.</li>
+                <li>Deployed <strong>Portainer</strong> to provide a Graphical Interface (GUI) for Docker container management.</li>
+                <li>Implemented <strong>AdGuard Home</strong> for DNS filtering, ad blocking, and privacy.</li>
+                <li>Configured <strong>TwinGate VPN</strong> for secure remote access to internal services.</li>
+                <li>Set up <strong>Nginx Proxy Manager</strong> for reverse proxy routing.</li>
+              </ul>
+
+              <div class="project-tech">
+                <span>Ubuntu Server</span>
+                <span>Docker</span>
+                <span>Portainer</span>
+                <span>AdGuard Home</span>
+                <span>TwinGate VPN</span>
+                <span>Nginx Proxy Manager</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <a href="https://github.com/devinbeer/devinbeer.github.io" class="project-link">
+                <header class="project-card-header">
+                  <h3 class="project-title">Personal Portfolio Website</h3>
+                  <span class="project-year">November 2025</span>
+                </header>
+
+                <p class="project-role">Web Development</p>
+
+                <p class="project-summary">
+                  Designed and developed a custom portfolio website to showcase my personal and professional projects, experience, and
+                  skills.
+                </p>
+
+                <ul class="project-bullets">
+                  <li>Developed the site from scratch using <strong>HTML</strong>, <strong>CSS</strong>, and light <strong>JavaScript</strong>.</li>
+                  <li>Hosted the site using <strong>GitHub Pages</strong> with automated deployment through GitHub.</li>
+                  <li>Configured a <strong>custom domain</strong>, including DNS records and HTTPS enforcement.</li>
+                  <li>Built a responsive interface featuring modular components like project cards and skills grids.</li>
+                  <li>Optimized load times with minimal dependencies, lightweight markup, and mobile-friendly layout.</li>
+                </ul>
+
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </section>
+      </section>
+      
+      <!-- Education -->
+      <section id="education" class="section-block">
+        <section class="section">
+          <div class="label">Education</div>
+          <div class="section-plain edu">
+            <div class="degree">Bachelor of Science (B.S.), Information Technology and Security</div>
+            <div>Baker College</div>
           </div>
         </section>
       </section>
